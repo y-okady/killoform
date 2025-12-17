@@ -78,6 +78,7 @@ $ killoform apply <アプリID>
 │   │   ├── plugin
 │   │   │   └── config.json (experimental)
 │   │   ├── reports.json
-│   │   └── views.json
+│   │   ├── views.json
+│   │   └── actions.json
 └── package.json
 ```
