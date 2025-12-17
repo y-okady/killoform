@@ -2,10 +2,20 @@
   "name": "killoform",
   "version": "1.0.0",
   "main": "index.js",
+  "bin": {
+    "killoform": "./index.js"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
   "license": "ISC",
-  "description": ""
+  "description": "",
+  "dependencies": {
+    "@kintone/rest-api-client": "^6.1.0",
+    "chalk": "^4.1.2",
+    "commander": "^11.1.0",
+    "dotenv": "^16.3.1",
+    "diff": "^5.1.0"
+  }
 }
